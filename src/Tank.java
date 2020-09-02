@@ -1,7 +1,7 @@
-public class Tank extends GameUnit{
-    public Tank(){
+public class Tank extends GameUnit {
+    public Tank() {
         System.out.println("new Tank");
-        setAttack(new Axe());
-        setMove(new Walking());
+        setAttack(new Cannon());
+        setMove(new Driving());
     }
 }
